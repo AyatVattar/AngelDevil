@@ -1,0 +1,32 @@
+body{
+    background: url(bg-light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.dark .body-dark{
+     background: url(bg-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.lh-0{
+    line-height: 0;
+}
+
+.dark-switch{
+    width: 3rem !important;
+    height: 1.5rem;
+}
+
+.dark .dark-text-white{
+    color: #FAFBFC;
+}
+
+.light-text-dark{
+    color: #4C6879;
+}
