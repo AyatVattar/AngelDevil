@@ -63,4 +63,27 @@ body{
     }
 }
 
+.header .countdown div{
+text-align: center;
+border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 8px;
+margin: 10px 10px ;
+width: 150px;
+padding: 15px 0;
+}
+
+.dark .dark-btn{
+    background-color: #FAFBFC;
+    color: #4C6879;
+    box-shadow: 0 0  20px #4C6879;
+    transition: all 0.3s;
+    
+}
+.light-btn{
+    background-color: #4C6879;
+    color: #FAFBFC;
+    box-shadow: 0 0  20px #4C6879;
+    transition: all 0.3s;
+
+}
 
